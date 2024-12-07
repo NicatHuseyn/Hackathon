@@ -1,38 +1,27 @@
 let myuuid = crypto.randomUUID();
 
-
-// const bcrypt = require('bcrypt');
-
 export class User {
-    constructor(fullname, username, email, gender, password) {
-        this.id = myuuid,
-        this.fullname = fullname,
-        this.username = username,
-        this.email = email,
-        this.gender = gender,
-        this.password = password
+    constructor(fullname, username, email, gender) {
+        this.id = myuuid;
+        this.fullname = fullname;
+        this.username = username;
+        this.email = email;
+        this.gender = gender;
     }
 
-    // hashPassword(password) {
-    //     const saltRounds = 10;
-    //     return bcrypt.hashSync(password, saltRounds);
-    // }
-
-    // validatePassword(inputPassword) {
-    //     return bcrypt.compareSync(inputPassword, this.password);
-    // }
-}
-
-export class LoginUser {
-    constructor(username, email = null,password) {
-        this.username = username,
-        this.password = password,
-        this.email = email
+    async initialize(password) {
+        this.password = await this.hashPassword(password);
     }
 
-    // validatePassword(inputPassword) {
-    //     return bcrypt.compareSync(inputPassword, this.password);
-    // }
+    async hashPassword(password) {
+        return await globalHashPassword(password);
+    }
 }
 
-
+const globalHashPassword = async (password) => {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(password);
+    const hashBuffer = await crypto.subtle.digest("SHA-384", data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
+};

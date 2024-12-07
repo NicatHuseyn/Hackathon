@@ -1,12 +1,12 @@
-// import { BASE_URL, endpoints } from "./endpoints/url";
 
-// import { User } from "../js/classes/User.js";
 import { createUser } from "./services/userService.js";
-
-
+// import {  } from "";
 
 const formElem = document.getElementById("identity_form");
+
+
 formElem.addEventListener("submit",(e)=>{
+    
     e.preventDefault();
 
 
@@ -14,17 +14,15 @@ formElem.addEventListener("submit",(e)=>{
     const usernameElem = document.getElementById("username").value;
     const emailElem = document.getElementById("email").value;
     const genderElem = document.getElementById("gender").value;
+
     const passwordElem = document.getElementById("password").value;
-    
-    // createUser(fullNameElem,usernameElem,emailElem,genderElem,passwordElem);
+    const passwordConfirmElem = document.getElementById("password_confirm").value;
 
-    // axios.post(`http://localhost:5001/users`, new User(fullNameElem,usernameElem,emailElem,genderElem,passwordElem),{
-    //     headers:{ 'Content-Type': 'application/json'}
-    // }).then(res=>{
-    //     console.log(res.data);
-        
-    // })
-
-    createUser(fullNameElem,usernameElem,emailElem,genderElem,passwordElem);
+    if (passwordElem !== passwordConfirmElem) {
+        alert("kodu duzgun yazin, xahis")
+        return;
+    }else{
+        createUser(fullNameElem,usernameElem,emailElem,genderElem,passwordElem);
+    }
     
 });

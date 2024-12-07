@@ -11,6 +11,7 @@ export const registerUser = async (userData)=>{
 
         return {success:true, data:response.data};
     } catch (error) {
-        handleError(error)
+        console.log(error);
+        
     }
 }

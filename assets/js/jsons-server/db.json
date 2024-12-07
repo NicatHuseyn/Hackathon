@@ -10,6 +10,111 @@
       "email": "nicathuseyn.official@gmail.com",
       "gender": "Male",
       "password": "12345"
+    },
+    {
+      "id": "652e807d-6972-4129-80c9-11ab31f13884",
+      "fullname": "Nicat Huseynov",
+      "username": "nijat",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male",
+      "password": "0fa76955abfa9dafd83facca8343a92aa09497f98101086611b0bfa95dbc0dcc661d62e9568a5a032ba81960f3e55d4a"
+    },
+    {
+      "id": "a2397709-2ba8-4aba-aeba-46316ff43342",
+      "fullname": "Elnur Kərimov",
+      "username": "elnur",
+      "email": "elnur@gmail.com",
+      "gender": "Male",
+      "password": "e7d4d45d827a1d4174a2f2d95d8ab72a7b7f23ddc75a565e7e5692641aaa645ec9fb2757e5cd8a410f7d192e4a519869"
+    },
+    {
+      "id": "ae538721-a60d-4ebc-b24a-57f30a2ecbbb",
+      "fullname": "Orxan ",
+      "username": "orxan_060",
+      "email": "orxan@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": "87c62994-b445-4030-8ac4-3a9823d9d280",
+      "fullname": "dede",
+      "username": "nijat",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": "905e6dfd-dee5-4e49-8e65-14c39d2b84a3",
+      "fullname": "Elnur Kərimov",
+      "username": "dede",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": "6e88b800-ee12-4704-a519-e5ef76a555cd",
+      "fullname": "deede",
+      "username": "dedede",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": "40a8e6f3-89c4-4eac-9297-3f38573b8a95",
+      "fullname": "dede",
+      "username": "dede",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": "2fec9cf0-bf3d-4247-9d62-560324778fdb",
+      "fullname": "fefde",
+      "username": "fdefe",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Other"
+    },
+    {
+      "id": "dbc8e8ae-9f18-4e07-bdc2-64132cde670e",
+      "fullname": "dede",
+      "username": "dede",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": "9b8a583c-ef77-403a-bfa5-461663880457",
+      "fullname": "dede",
+      "username": "dede",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male",
+      "password": "9ad5953534891da8d281d2655073c9fe9513f3d50be1f6adc74f12900cf074091073bbc24e4a9d8d19282cdcacb00add"
+    },
+    {
+      "id": "08fc55fc-0225-46da-bfbf-1dfbd7cc22f9",
+      "fullname": "Nicat Huseynov",
+      "username": "nijat",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male",
+      "password": "f9a1ff3af647d412447a4bd475cb60c065157d16520cb7c9c4575ea7ae3aad4f654912aeb185b82fb3a032bfa22457c8"
+    },
+    {
+      "id": "853c9e59-ec46-4cd5-be19-bf69505ea740",
+      "fullname": "Elcan Aydemirov",
+      "username": "elcan",
+      "email": "elcan@gmail.com",
+      "gender": "Male",
+      "password": "f9a1ff3af647d412447a4bd475cb60c065157d16520cb7c9c4575ea7ae3aad4f654912aeb185b82fb3a032bfa22457c8"
+    },
+    {
+      "id": "194e09bd-8208-4462-af1b-7924bbdc6a48",
+      "fullname": "Nicat Huseynov",
+      "username": "nijat",
+      "email": "nicathuseyn.official@gmail.com",
+      "gender": "Male",
+      "password": "9a0a82f0c0cf31470d7affede3406cc9aa8410671520b727044eda15b4c25532a9b5cd8aaf9cec4919d76255b6bfb00f"
+    },
+    {
+      "id": "023fd184-5530-495c-8b42-7ee282c911bf",
+      "fullname": "Orxan ",
+      "username": "orxan",
+      "email": "orxan@gmail.com",
+      "gender": "Male",
+      "password": "9a0a82f0c0cf31470d7affede3406cc9aa8410671520b727044eda15b4c25532a9b5cd8aaf9cec4919d76255b6bfb00f"
     }
   ]
 }

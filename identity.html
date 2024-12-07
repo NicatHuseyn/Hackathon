@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation in HTML | CodingNepal</title>
     <link rel="stylesheet" href="./assets/css/identity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.14.5/sweetalert2.css" integrity="sha512-6qScZESleBziOBqJwOPurSy6lhLqHGjHNALOOFX0mzRVPiE5SZQvepRzeSO1OB475fcZywuMjxtkrFaO93aq9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Fontawesome CDN Link For Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   </head>
@@ -38,15 +39,19 @@
         <input type="password" id="password" placeholder="Enter your password">
         <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
       </div>
+      <div class="form-group password">
+        <label for="password_confirm">Password Confirm *</label>
+        <input type="password" id="password_confirm" placeholder="Please, Enter your password again">
+        <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+      </div>
       
       <div class="form-group submit-btn">
         <button type="submit" id="btn">Submit</button>
       </div>
     </form>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.2.0/bcrypt.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.14.5/sweetalert2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js"></script>
     <script type="module" src="./assets/js/identity.js"></script>
   </body>

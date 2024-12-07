@@ -3,10 +3,10 @@ import axios from "axios";
 import { handleError } from "../error-handler/errorHandler.js";
 
 
-export const axiosRequest = async (method, endpoint, payload = null)=>{
+export const axiosRequest = async (methodType, endpoint, payload = null)=>{
 
     const config ={
-        method,
+        methodType,
         url:`${BASE_URL}/${endpoint}`,
         data:payload,
         headers:{
@@ -16,7 +16,7 @@ export const axiosRequest = async (method, endpoint, payload = null)=>{
 
     try {
         const response = await axios(config);
-        return response
+        return response;
     } catch (error) {
         return handleError(error);
     }
